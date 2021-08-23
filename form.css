@@ -1,0 +1,97 @@
+body {
+  background: url("https://png.pngtree.com/thumb_back/fh260/background/20201104/pngtree-technology-background-binary-computer-code-vector-design-image_458702.jpg");
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  text-align: center;
+  text-decoration: dotted;
+  text-decoration-color: aliceblue;
+}
+
+.navbar {
+  width: 98%;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: right;
+  color: #a52a2a;
+  border: 3px dashed #a52a2a;
+  padding: 10px;
+  margin-top: none;
+
+  overflow: hidden;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #a52a2a;
+}
+ul {
+  padding: 10px;
+  margin-right: 50px;
+}
+li {
+  list-style: none;
+  display: inline;
+  padding: 5px;
+  margin-right: 50px;
+  font-family: Arial Black;
+}
+
+li:hover {
+  border-bottom: 3px solid ivory;
+  background-color: goldenrod;
+  color: white;
+}
+
+form {
+  background-image: url("https://cdn.nohat.cc/thumb/f/720/comrawpixel1015303.jpg");
+  color: #a52a2a;
+  text-decoration: dashed;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 50px;
+}
+
+label{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+}
+
+.desi {
+  border: 5px solid red;
+  color: white;
+  background-image: url("https://cdn.nohat.cc/thumb/f/720/comrawpixel1015303.jpg");
+  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.u{
+  color: white;
+  
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+}
+
+.head{
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 800px;
+  transform: translate(-80%, -80%);
+  height: 100%;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
